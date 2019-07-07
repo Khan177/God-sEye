@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+    	body{
+    		background-color:black;
+    	}
+    	.main{
+    		margin-left:10%;
+    		font-family:'Montserrat',sans-serif;
+    		background-color: white;
+    		width:60%;
+    		text-align:center;
+    		border-radius:10px;	
+    		padding-top:3%;
+    		
+    	}
+    	h2{
+    		font-weight:200;
+    	}
+    	img{
+    		max-width: 25%;
+    		height:auto;
+    		border-radius:20px;
+    	}
+    </style>
+    <title>Result</title>
+</head>
+<body>
+	<div class="main">
+		<img src="{{userData.pop("Avatar: ")}}">
+		{% for i in userData %}
+		 <h2>{{i + userData[i]}}</h2>
+		{% endfor %}	
+	</div>
+	
+	
+</body>
+</html>

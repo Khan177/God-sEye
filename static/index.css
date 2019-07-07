@@ -1,0 +1,101 @@
+html{
+  font-family: 'Montserrat',sans-serif;
+
+}
+body {
+  margin: 0;
+  background-image: url("social.jpg");
+  background-size: cover;
+  z-index: 9999;
+  width: 1200px;
+  height: 800px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+header {
+  color: #f6eab9;
+  font-size: 4em;
+  margin-left: 10%;
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
+.App {
+  text-align: center;
+}
+.main {
+  width: 60%;
+  margin: auto;
+  border-radius: 50px;
+  padding-top: 1%;
+  margin-bottom:10%;
+  background-image: url("social2.jpg");
+}
+
+.header {
+  color: #f6eab9;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 2%;
+}
+.form {
+  padding-top: 0%;
+  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
+}
+.link{
+  border-radius: 5px;
+  border: none;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #f6eab9;
+  width: 90%;
+}
+.row {
+  margin-top: 8%;
+}
+button {
+  width: 100%;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.instagram {
+  background-color: #c13584;
+  color: white;
+  border-radius: 8px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.main-header{
+  background-color: #29BEB0;
+  color: white;
+  border-radius: 8px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.vk {
+  background-color: #45668e;
+  color: white;
+  border-radius: 8px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.facebook {
+  background-color: #3b5998;
+  color: white;
+  border-radius: 8px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.go {
+  background-color: rgb(240,240,240);
+  border-radius: 8px;
+  color: #29BEB0;
+  width: 30%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>God's(Khan's)Eye</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+      God's(Khan's)Eye
+    </header>
+    <div class="App">
+        <div class=main>
+          <div class="choose">
+            <form class="form container action="{{ url_for('result')}} method="POST">
+              <div class="row">
+                <div class="col" />
+                <div class="col main-header">Choose Profile</div>
+                <div class="col" />
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="radio" name="social" value="Instagram"><div class="instagram">Instagram</div> 
+                </div>
+                <div class="col">
+                  <input type="radio" name="social" value="VK"><div class="vk">VK</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input class='link'
+                    type="text"
+                    placeholder="Nickname: "
+                    name="login"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button class="go" type="submit">
+                    Go
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
